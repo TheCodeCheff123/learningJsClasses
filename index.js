@@ -1,4 +1,5 @@
 // this class is to calculate the products and price
+/*
 class Products{
     constructor(name,price){
         this.name = name;
@@ -20,3 +21,23 @@ product1.displayProduct()
 
 const total = product1.calculateTotal(salesTax);
 console.log(`Total Price (with tax): ${total}`)
+*/
+
+
+// learning inheritance
+class Mammal{
+    numberOfEyes = 2;
+
+    eat(){
+        console.log("i am eating")
+    }
+}
+
+const mammal = new Mammal
+mammal.eat()
+// creating human class
+class Human extends Mammal{
+
+}
+
+const human = new Human()
